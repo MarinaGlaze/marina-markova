@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name | Software Engineer in Test</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            --primary: #1f395b;
+            --accent: #0b7dda;
+            --text: #1f1f1f;
+            --muted: #5b5b5b;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f7f8fa;
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 880px;
+            margin: auto;
+            padding: 40px 24px 64px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            color: var(--primary);
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+        header h2 {
+            margin: 8px 0 16px;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.1em;
+        }
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+        .separator::after {
+            content: "◇";
+            margin: 0 10px;
+            color: var(--muted);
+        }
+        .separator:last-child::after {
+            content: "";
+            margin: 0;
+        }
+        section {
+            margin-top: 32px;
+        }
+        h3 {
+            margin-bottom: 12px;
+            font-size: 18px;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .experience-item {
+            margin-bottom: 24px;
+        }
+        .experience-header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 8px;
+            font-weight: 600;
+        }
+        .experience-meta {
+            font-size: 14px;
+            color: var(--muted);
+        }
+        @media print {
+            body {
+                background: #fff;
+            }
+            .container {
+                box-shadow: none;
+                padding: 24px;
+            }
+            header h1 {
+                font-size: 26px;
+            }
+        }
+        a {
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Name</h1>
+            <h2>Software Engineer in Test</h2>
+            <div class="contact">
+                <span class="separator">+phone</span>
+                <span class="separator"><a href="mailto:email">email</a></span>
+                <span class="separator">Gdansk, Poland</span>
+                <span>Open to Relocate</span>
+            </div>
+        </header>
+
+        <section>
+            <h3>Summary</h3>
+            <p>
+                Detail-oriented QA Automation Engineer with over 10 years of experience in web application testing, specializing in Agile methodologies and exploratory approaches. Adept at implementing UI, API, and database testing, and building automation frameworks in JavaScript/TypeScript using Playwright. Proven track record in investigating complex user-reported issues, partnering with cross-functional teams, and maintaining a fact-based approach to quality assurance.
+            </p>
+        </section>
+
+        <section>
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>Test Automation:</strong> JavaScript/TypeScript, Playwright, WebdriverIO, Cypress, BDD (Cucumber/Gherkin), Allure, ReportPortal</li>
+                <li><strong>Testing Practices:</strong> Test design, functional/regression/integration testing, API testing (REST, Postman, Swagger, JSON), web UI testing, exploratory testing, defect investigation, AI-assisted test design (GitHub Copilot, ChatGPT)</li>
+                <li><strong>CI/CD & Tooling:</strong> Git, Jenkins, GitHub Actions, Docker, database testing (SQL, MongoDB)</li>
+                <li><strong>Process & Methodology:</strong> Agile/Scrum, test strategy & planning, risk mitigation, shift-left, documentation & reporting, defect management, SDLC, mentoring, cross-team communication</li>
+                <li><strong>Languages:</strong> English, Russian</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Experience</h3>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Software Engineer in Test · EPAM Systems Inc</span>
+                    <span class="experience-meta">Gdansk, Poland · Feb 2019 – Present</span>
+                </div>
+                <ul>
+                    <li>Designed and implemented functional test strategies that boosted coverage and lowered production defects.</li>
+                    <li>Authored test plans for distributed systems, ensuring alignment with scalability and integration requirements.</li>
+                    <li>Leveraged AI-assisted tools to accelerate test design, script authoring, and analysis.</li>
+                    <li>Automated end-to-end tests with JavaScript/TypeScript using Playwright and Cypress, improving regression speed and reliability.</li>
+                    <li>Integrated automated suites into Git/GitHub Actions CI/CD pipelines to enforce continuous quality gates.</li>
+                    <li>Investigated complex user-reported issues through exploratory testing and data analysis.</li>
+                    <li>Participated in requirement reviews and cross-team discussions to guarantee testability and quality.</li>
+                    <li>Delivered demos to clients, highlighting coverage and showcasing product quality.</li>
+                    <li>Collaborated with product, design, and engineering teams to balance quality objectives with delivery timelines.</li>
+                    <li>Authored precise, actionable bug reports and partnered with developers to resolve root causes.</li>
+                    <li>Mentored junior QA engineers on automation, exploratory techniques, and business context.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Senior Quality Assurance Engineer · Luxoft Poland</span>
+                    <span class="experience-meta">Gdansk, Poland · Nov 2016 – Feb 2019</span>
+                </div>
+                <ul>
+                    <li>Defined test strategies, plans, and schedules for web and desktop solutions, aligning coverage with business priorities.</li>
+                    <li>Executed comprehensive cross-platform testing to ensure consistent behavior across devices and operating systems.</li>
+                    <li>Developed and ran Gherkin scenarios for Cucumber automation, reducing test execution time.</li>
+                    <li>Instituted structured defect management practices that improved quality and transparency.</li>
+                    <li>Contributed to QA hiring and upskilling programs for modern testing techniques.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Senior Quality Assurance Engineer · Luxoft</span>
+                    <span class="experience-meta">Saint-Petersburg, Russia · Apr 2015 – Nov 2016</span>
+                </div>
+                <ul>
+                    <li>Led a 12-member manual QA team through end-to-end testing workflows, focusing on quality and efficiency.</li>
+                    <li>Implemented risk assessment and mitigation strategies to ensure stable releases and customer satisfaction.</li>
+                    <li>Managed requirements analysis, test case development, data preparation, UI/API execution, and regression cycles.</li>
+                    <li>Maintained detailed reporting to track progress and communicate outcomes to stakeholders.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span>Software Test Engineer · Luxoft</span>
+                    <span class="experience-meta">Omsk, Russia · Apr 2010 – Apr 2015</span>
+                </div>
+                <ul>
+                    <li>Contributed to QA for a large-scale distributed system, solving challenges in synchronization and data consistency.</li>
+                    <li>Helped establish a distributed testing team with effective cross-time-zone communication.</li>
+                    <li>Owned full test lifecycles from strategy and planning through execution, regression, and stakeholder reporting.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h3>Education</h3>
+            <p><strong>Omsk State Pedagogical University</strong> — Omsk, Russia · July 2008<br>Computer Science</p>
+        </section>
+
+        <section>
+            <h3>Certifications</h3>
+            <ul>
+                <li>IC Agile Certified Professional (ICP)</li>
+                <li>ISTQB® Certified Tester, Advanced Level – Test Manager</li>
+                <li>ISTQB® Certified Tester, Foundation Level</li>
+                <li>Participant in CMMI Level 5 certification</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
